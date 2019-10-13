@@ -732,7 +732,10 @@ MongoClient.connect(url, function(err, db) {
 socket.on('receivedAck', function (data) {
     console.log("message received : ");
 })
-    
+   
+    socket.on('sendAck', function (data) {
+    console.log("message send : ");
+})
 
   
 });
