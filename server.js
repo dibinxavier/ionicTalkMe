@@ -734,6 +734,8 @@ socket.on('receivedAck', function (data) {
 })
    
     socket.on('sendAck', function (data) {
+        var socketelement=true;
+        var socketdata=false;
     console.log("message send : ");
 })
 
