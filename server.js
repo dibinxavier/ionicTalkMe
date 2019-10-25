@@ -736,6 +736,7 @@ socket.on('receivedAck', function (data) {
     
 socket.on('receivedAck2', function (data) {
     console.log("2nd message received : ");
+    console.log("2nd acknwoledge received : ");
 })
    
     socket.on('sendAck', function (data) {
