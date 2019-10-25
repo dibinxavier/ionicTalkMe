@@ -733,11 +733,17 @@ socket.on('receivedAck', function (data) {
     console.log("message received : ");
 })
     
-    
-socket.on('receivedAck2', function (data) {
-    console.log("2nd message received : ");
-    console.log("2nd acknwoledge received : ");
-})
+    //changes to remove
+        socket.on('receivedAck2', function (data) {
+            console.log("2nd message received : ");
+            console.log("2nd acknwoledge received : ");
+        })
+
+
+        socket.on('receivedAck3', function (data) {
+            console.log("3nd message received : ");
+        })
+      //changes to remove
    
     socket.on('sendAck', function (data) {
         var socketelement=true;
