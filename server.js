@@ -732,6 +732,11 @@ MongoClient.connect(url, function(err, db) {
 socket.on('receivedAck', function (data) {
     console.log("message received : ");
 })
+    
+    
+socket.on('receivedAck2', function (data) {
+    console.log("2nd message received : ");
+})
    
     socket.on('sendAck', function (data) {
         var socketelement=true;
