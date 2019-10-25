@@ -741,7 +741,8 @@ socket.on('receivedAck', function (data) {
 
 
         socket.on('receivedAck3', function (data) {
-            console.log("3nd message received : ");
+            console.log("3rd message received : ");
+            console.log("3rd acknwoledge received : ");
         })
       //changes to remove
    
